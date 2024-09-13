@@ -1,8 +1,5 @@
 # App de Metas
 
-## Descrição
-Este é um aplicativo simples para gerenciar suas metas pessoais, desenvolvido em Node.js. Ele permite cadastrar, visualizar e marcar como concluídas suas metas.
-
 ## Instalação
 1. Clone o repositório:
    ```bash
@@ -14,15 +11,6 @@ npm install
 Bash
 node index.js
 
-# App de Metas
-
-## Descrição
-Este é um aplicativo simples para gerenciar suas metas pessoais, desenvolvido em Node.js. Ele permite cadastrar, visualizar e marcar como concluídas suas metas.
-
-## Instalação
-1. Clone o repositório:
-   ```bash
-   git clone https://seu-repositorio.git
 Use o código com cuidado.
 
 Instale as dependências:
