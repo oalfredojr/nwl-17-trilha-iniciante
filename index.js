@@ -1,4 +1,4 @@
-const { select, input } = require('@inquirer/prompts')
+const { select, input, checkbox } = require('@inquirer/prompts')
 let meta = {
     value: 'Tomar 3L de água por dia',
     checked: false,
@@ -19,6 +19,10 @@ const cadastrarMeta = async () => {
     { value: meta, checked: false }
 
 )
+}
+
+const listarMetas = async () => {
+    const respostas = await checkbox()
 }
 
 const start = async () => {
@@ -53,7 +57,7 @@ const start = async () => {
         console.log(metas)
        break
     case "listar":
-    console.log("vamos listar")
+    await listaMetas()
     break
     case "sair":
         console.log("Até a próxima!")
